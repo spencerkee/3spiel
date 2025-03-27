@@ -5,7 +5,13 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "beautifulsoup4>=4.13.3",
+    "ipdb>=0.13.13",
+    "mechanicalsoup>=1.3.0",
+    "requests>=2.32.3",
+    "selenium>=4.29.0",
     "umap-learn[plot,tbb]>=0.5.7",
+    "webdriver-manager>=4.0.2",
 ]
 
 [dependency-groups]
